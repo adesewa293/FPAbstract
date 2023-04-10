@@ -1,0 +1,98 @@
+.header{
+    background-color: black;
+    padding: 15px;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.header1 {
+font-size: 25px;
+float: left;
+width: 50%;
+padding-top: 10px;
+
+}
+
+.header2 {
+    text-align: right;
+    float: left;
+    width: 50%;
+
+}
+
+.searchbar{
+    width: 50%;
+    height: 70px;
+    margin-top: 5px;
+    font-size: large;
+}
+.HCL {
+    border-left: 2px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.SAR{
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+    border-color: white;
+    font-size: large;
+    margin-right: 10px;
+}
+.SIB {
+    background-color: #4C5FD5;
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+    border-color: black;
+    font-size: large;
+   
+}
+
+.questionspace {
+    background-color: 
+    #dadbf1;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+}
+.div3 {
+    padding: 60px;
+    margin-top: 100px;
+}
+.row {
+overflow: hidden;
+
+
+}
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 50%
+    
+}
+
+
+.footer1{
+    float: left;
+    text-decoration: none;
+    width: 50%;
+}
+
+.leftcol {
+    float: left;
+    width: 50%;
+    /* clear: both; */
+}
+.rightcol {
+    float: left;
+    width: 50%;
+}
