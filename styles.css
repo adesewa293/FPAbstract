@@ -25,10 +25,27 @@ padding-top: 10px;
 }
 
 .searchbar{
+    border: none;
     width: 50%;
     height: 70px;
     margin-top: 5px;
     font-size: large;
+    background: transparent;
+}
+.SearchButton {
+   /* border: 1px solid #dee2e6; */
+  width: 60%;
+  margin: 0 auto;
+}
+.searchbar:focus{
+    outline: none;
+}
+/* .searchbar:hover {
+    border:1px solid #4C5FD5;
+    border-radius:  5px; 
+} */
+.SearchButton {
+    border: 1px solid black;
 }
 .HCL {
     border-left: 2px solid white;
@@ -41,7 +58,7 @@ padding-top: 10px;
     background-color: #000000;
     color: white;
     border-radius: 10px;
-    width: 170px;
+    width: 270px;
     height: 50px;
     border-color: white;
     font-size: large;
@@ -76,15 +93,26 @@ overflow: hidden;
 .footer {
     background-color: black;
     color: white;
-    margin-top: 50%
-    
 }
 
 
 .footer1{
     float: left;
+    /* overflow: hidden; */
     text-decoration: none;
-    width: 50%;
+    width: 20%;
+}
+
+.footer-text {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-text:hover {
+   text-decoration: underline;
+}
+.footerNav {
+    overflow: hidden;
 }
 
 .leftcol {
@@ -95,4 +123,7 @@ overflow: hidden;
 .rightcol {
     float: left;
     width: 50%;
+}
+.image {
+    max-width: 100px;
 }
